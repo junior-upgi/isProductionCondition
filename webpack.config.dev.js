@@ -7,11 +7,11 @@ export default {
     devtool: 'inline-source-map',
     noInfo: false,
     entry: [
-        path.resolve(__dirname, 'source/index')
+        path.resolve(__dirname, 'public/js/input')
     ],
     target: 'web',
     output: {
-        path: path.resolve(__dirname, 'source'),
+        path: path.resolve(__dirname, 'public'),
         publicPath: '/isProdCond',
         filename: 'bundle.js'
     },

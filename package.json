@@ -1,53 +1,54 @@
 {
-    "name": "is-production-condition",
-    "version": "1.0.0",
-    "description": "製造課生產條件記錄表",
-    "main": "isProdCond.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "lint": "esw overdueMonitor.js webpack.config.* source --color",
-        "lint:watch": "npm run lint -- --watch",
-        "security-check": "nsp check",
-        "start:server": "babel-node isProdCond.js",
-        "start": "nodemon --exec npm-run-all --parallel security-check start:server lint:watch"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/junior-upgi/isProductionCondition.git"
-    },
-    "author": "Chia-Yu Tsai",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/junior-upgi/isProductionCondition/issues"
-    },
-    "homepage": "https://github.com/junior-upgi/isProductionCondition#readme",
-    "dependencies": {
-        "body-parser": "^1.15.2",
-        "cors": "^2.8.1",
-        "ejs": "^2.5.3",
-        "express": "^4.14.0",
-        "moment-timezone": "^0.5.9",
-        "morgan": "^1.7.0",
-        "mssql": "^3.3.0",
-        "npm-run-all": "^3.1.2",
-        "request": "^2.79.0",
-        "request-promise": "^4.1.1"
-    },
-    "devDependencies": {
-        "babel-cli": "^6.18.0",
-        "babel-core": "^6.18.2",
-        "babel-eslint": "^7.1.1",
-        "babel-loader": "^6.2.8",
-        "babel-preset-latest": "^6.16.0",
-        "babel-register": "^6.18.0",
-        "eslint": "^3.10.2",
-        "eslint-plugin-import": "^2.2.0",
-        "eslint-watch": "^2.1.14",
-        "html-webpack-plugin": "^2.24.1",
-        "nsp": "^2.6.2",
-        "webpack": "^1.13.3",
-        "webpack-dev-middleware": "^1.8.4",
-        "webpack-hot-middleware": "^2.13.2",
-        "webpack-md5-hash": "0.0.5"
-    }
+  "name": "is-production-condition",
+  "version": "1.0.0",
+  "description": "製造課生產條件記錄表",
+  "main": "isProdCond.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "esw overdueMonitor.js webpack.config.* source --color",
+    "lint:watch": "npm run lint -- --watch",
+    "security-check": "nsp check",
+    "start:server": "babel-node isProdCond.js",
+    "start": "nodemon --exec npm-run-all --parallel security-check start:server lint:watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junior-upgi/isProductionCondition.git"
+  },
+  "author": "Chia-Yu Tsai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junior-upgi/isProductionCondition/issues"
+  },
+  "homepage": "https://github.com/junior-upgi/isProductionCondition#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "ejs": "^2.5.3",
+    "express": "^4.14.0",
+    "jquery": "^3.1.1",
+    "moment-timezone": "^0.5.9",
+    "morgan": "^1.7.0",
+    "mssql": "^3.3.0",
+    "npm-run-all": "^3.1.2",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.2",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.8",
+    "babel-preset-latest": "^6.16.0",
+    "babel-register": "^6.18.0",
+    "eslint": "^3.10.2",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-watch": "^2.1.14",
+    "html-webpack-plugin": "^2.24.1",
+    "nsp": "^2.6.2",
+    "webpack": "^1.13.3",
+    "webpack-dev-middleware": "^1.8.4",
+    "webpack-hot-middleware": "^2.13.2",
+    "webpack-md5-hash": "0.0.5"
+  }
 }

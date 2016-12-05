@@ -35,8 +35,8 @@ app.use(bodyParser.json()); // parse application/json
 app.use("/isProdCond/image", express.static("./public/image"));
 app.use("/isProdCond/bower_modules", express.static("./public/bower_modules"));
 
-app.get("/", function(request, response) { // serve mobile page
-    return response.status(200).sendFile(path.join(__dirname, "source/mobileReport.html"));
+app.get("/isProdCond/input", function(request, response) { // serve mobile page
+    return response.status(200).sendFile(path.join(__dirname, "public/input.html"));
 });
 
 app.listen(config.serverPort, function(error) { // start backend server
