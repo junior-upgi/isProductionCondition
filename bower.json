@@ -1,0 +1,26 @@
+{
+    "name": "is-production-condition",
+    "description": "製造課生產條件記錄表",
+    "main": "isProdCond.js",
+    "authors": [
+        "Chia-Yu Tsai"
+    ],
+    "license": "ISC",
+    "homepage": "https://github.com/junior-upgi/isProductionCondition",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "bootstrap": "^3.3.7",
+        "numeral": "^1.5.6",
+        "chart.js": "^2.4.0",
+        "jquery": "^3.1.1",
+        "moment": "^2.17.1",
+        "moment-timezone": "^0.5.10"
+    }
+}
